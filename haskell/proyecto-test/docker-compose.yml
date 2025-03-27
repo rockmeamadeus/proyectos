@@ -1,0 +1,7 @@
+services:
+  proyecto-test:
+    build: .
+    container_name: proyecto-test
+    volumes:
+      - .:/app
+    command: stack test

@@ -1,0 +1,11 @@
+resolver: lts-22.43  # O una versión más reciente si hay problemas
+packages:
+- .
+
+extra-deps:
+- git: https://github.com/10Pines/pdepreludat.git
+  commit: 73e547eaec4084ef7f48fdd11bb83b576bd8f3bd
+
+# Opcional
+ghc-options:
+  pdeprelude: -haddock
