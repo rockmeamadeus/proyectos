@@ -5,4 +5,4 @@ services:
     container_name: proyecto-test
     volumes:
       - .:/app
-    command: stack test
+    command: stack test --allow-different-user
