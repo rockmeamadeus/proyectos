@@ -2,4 +2,4 @@ module Library where
 import PdePreludat
 
 doble :: Number -> Number
-doble numero = numero + numero2
+doble numero = numero + numero123
